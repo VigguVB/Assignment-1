@@ -1,0 +1,426 @@
+body {
+    width: 100%;
+    margin: auto;
+    font-family: Lato;
+}
+/* header */
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+#company {
+    width: 150px;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 1%;
+    position: absolute;
+    float: left;
+}
+
+#navigation_div {
+    width: 38%;
+    margin-left: 56%;
+    height: 60px;
+    margin-top: 0.8%;
+    position: absolute;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+#navigation_div>button {
+    background-color: black;
+    border: none;
+    color: white;
+    width: 170px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 2%;
+    z-index: 100;
+    margin-top: 1%;
+}
+
+/* body divs */
+
+.utility_div {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#semi_div {
+    width: 700px;
+    height: 700px;
+    margin-left: 27%;
+    position: absolute;
+    margin-top: 17.5%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.666);
+    z-index: -10;
+}
+
+#compact_badge {
+    width: 150px;
+    height: 150px;
+    margin-top: 50%;
+    margin-left: 38.8%;
+}
+
+#badge_item {
+    width: 370px;
+    height: 100px;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+#para_one {
+    margin-left: 27%;
+    font-weight: 600;
+    color: #046804;
+}
+
+#para_two {
+    margin-left: 7%;
+    font-weight: 600;
+    color: rgba(37, 37, 37, 0.807);
+}
+
+#para_two>span {
+    font-size: 14px;
+    color: grey;
+}
+
+#para_three {
+    margin-left: 18%;
+    font-weight: 600;
+    color: rgba(37, 37, 37, 0.807);
+    margin-top: -5.5%;
+}
+
+#para_three>span {
+    font-size: 14px;
+    color: grey;
+
+}
+
+#shortcard_1 {
+    width: 250px;
+    height: 165px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.icons_div {
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    border: 2px solid #84d82f;
+    margin-left: 38.5%;
+    margin-top: 2%;
+    background-image: linear-gradient(hsl(87, 85%, 61%), green);
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 2%;
+}
+
+#shortcard_1>p {
+    color: hwb(0 56% 43%);
+    font-size: 11px;
+    margin-top: -0.5%;
+    margin-bottom: -0.5%;
+}
+
+.lines {
+    margin-top: 3%;
+    width: 120px;
+    margin-left: 25%;
+    border-bottom: 2px solid #039c03;
+}
+
+.gradiental {
+    background-image: linear-gradient(to right, hsl(0, 7%, 3%), rgb(14, 6, 59), black);
+}
+
+#img_cont_one {
+    width: 32%;
+    margin-left: 8%;
+    height: 450px;
+    margin-top: 2%;
+    float: left;
+}
+
+#content_div_two {
+    width: 55%;
+    margin-left: 3%;
+    height: 450px;
+    margin-top: 2%;
+    float: left;
+}
+
+#container_one {
+    width: 80%;
+    height: 250px;
+}
+
+#container_two {
+    margin-top: 3%;
+    width: 90%;
+    height: 150px;
+}
+
+#container_two>p {
+    color: rgba(245, 245, 245, 0.889);
+    font-size: 32px;
+    font-family: Lato;
+}
+
+.main_cont_vedio {
+    background-image: linear-gradient(to right, #c3f9cd, hwb(202 83% 5%), #f2f9f0);
+}
+
+#inner_container {
+    width: 80%;
+    height: 400px;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.544);
+    background-color: white;
+    border-radius: 5px;
+}
+
+#lists {
+    width: 35%;
+    height: 400px;
+    float: left;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.577);
+}
+
+.head_text {
+    text-align: center;
+    margin-top: 0%;
+    color: hsl(120, 79%, 24%);
+    font-weight: 700;
+}
+
+.main_cont_vedio>p {
+    text-align: center;
+    margin-bottom: -0.1%;
+    font-weight: 600;
+}
+
+#lists>button {
+    height: 80px;
+    border: none;
+    width: 418px;
+    border-bottom: 2px solid green;
+    text-align: left;
+    padding-left: 8%;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    color: hsl(120, 97%, 23%);
+}
+#lists>button:hover{
+    background-color: hsl(39, 88%, 66%);
+}
+
+#rightDiv {
+    width: 54%;
+    height: 400px;
+    margin-left: 5.5%;
+    float: left;
+}
+
+#vedio_description {
+    margin-top: 1.5%;
+    width: 100%;
+    height: 70px;
+}
+
+#vedio_description>p {
+    margin-bottom: -0.2%;
+    font-size: 18px;
+    color: hsl(120, 97%, 23%);
+    font-weight: 600;
+}
+
+#vedio_display {
+    margin-top: 1.5%;
+    width: 100%;
+    height: 280px;
+}
+
+.specification_div {
+    background-color: hsla(0, 3%, 86%, 0.455);
+    height: 645px;
+}
+
+#line_diagram {
+    width: 35%;
+    height: 500px;
+    margin-left: 32.5%;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.553);
+    border-radius: 50%;
+    background-color: white;
+    z-index: -10;
+    margin-top: 18%;
+}
+
+#inner_div_graph {
+    width: 372px;
+    position: absolute;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.coins {
+    width: 160px;
+    height: 160px;
+    margin-top: 1%;
+    border-radius: 50%;
+    border: 5px solid hsl(0, 0%, 59%);
+    position: absolute;
+    background-image: radial-gradient(#4b4949, black);
+}
+
+.coinHeading {
+    color: white;
+    font-weight: 600;
+    margin-top: 20%;
+    margin-left: 18%;
+}
+
+.coinHeading2 {
+    color: white;
+    font-weight: 600;
+    margin-top: -10%;
+    margin-left: 18%;
+}
+
+.coin_number {
+    color: hsl(120, 79%, 24%);
+    margin-left: 42%;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-top: -8%;
+}
+
+.buynow_div {
+    height: 380px;
+}
+
+#image_buy1 {
+    width: 67%;
+    height: 380px;
+    z-index: 10;
+    float: left;
+    background-image: linear-gradient(to right, black, hsla(0, 0%, 20%, 0.996), rgb(2, 2, 41));
+}
+
+.btn_container {
+    width: 60%;
+    height: 380px;
+    float: left;
+}
+
+.single_img_container {
+    width: 35%;
+    height: 380px;
+    float: left;
+}
+
+.buy {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 35%;
+}
+
+#kitchen {
+    width: 33%;
+    height: 380px;
+    float: left;
+}
+
+#image_buy2 {
+    width: 67%;
+    height: 380px;
+    z-index: 10;
+    float: left;
+    background-image: linear-gradient(to right, hsl(208, 13%, 48%), hwb(0 86% 13% / 0.996));
+}
+
+.buy2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+/* footer */
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://i.ibb.co/kK5cbv2/customer-care.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#name {
+    color: hsl(120, 94%, 20%);
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 38%;
+    position: absolute;
+    margin-top: 0.2%;
+}
+
+.contact {
+    width: 50%;
+    height: 40px;
+    border-right: 2px solid green;
+    margin-top: 16%;
+    text-align: right;
+    color: #046804;
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+    padding-right: 2%;
+}
+
+.enquiry {
+    width: 50%;
+    height: 40px;
+    border-left: 2px solid green;
+    margin-top: 16%;
+    padding-left: 2%;
+    text-align: left;
+    color: #046804;
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+}
+
+.emojis {
+    color: #046804;
+    font-size: 50px;
+    margin-right: 2%;
+}
